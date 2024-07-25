@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://i0.hdslb.com/bfs/new_dyn/45cc3efe2c7f938cbd5d4e8f52a28530701787631.png@!web-comment-note.avif" width="567">
+    <input type="button" id="btn1" value="如果了解我了就点一下" onclick="on()">  <!-- 通过事件属性onclick来绑定事件 -->
+    <script>
+                /* 输入打开网页人的名字 */
+        let friend = prompt('请告诉我你的名字好吗：')
+        alert('嗨~亲爱的'+friend+'同学，你好呀，很高兴认识你！我叫李崧赫，下面请让我来做一个简单的自我介绍吧：')
+
+        
+        function on(){
+            while(true){
+
+                let myname=prompt('还记得我的名字吗：')
+                if(myname != '李崧赫'){
+                    alert("扎心了老铁~这不是我哦，再好好想想");  
+                }else{
+                    alert("哇谢谢你记得我，期待八月份与你的见面");
+                    break
+                }
+            }
+            alert("跟高兴绅士你");           //通过事件属性onclick来绑定事件
+        }
+
+    </script>
+
+
+</body>
+</html>
